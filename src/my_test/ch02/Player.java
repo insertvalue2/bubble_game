@@ -1,4 +1,4 @@
-package _test02;
+package my_test.ch02;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -92,6 +92,7 @@ public class Player extends JLabel implements Moveable {
         }).start();
     }
 
+    // 점프 기능 구현해보기
     @Override
     public void up() {
 
