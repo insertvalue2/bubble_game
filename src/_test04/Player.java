@@ -127,7 +127,7 @@ public class Player extends JLabel implements Moveable {
             down = false;
         }).start();
     }
-
+    
     // 물방울 발사
     public void fireBubble(BubbleFrame bubbleFrame) {
         Bubble bubble = new Bubble(this);
